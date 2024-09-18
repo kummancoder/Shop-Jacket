@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+nav
+{
+    
+    /* background-color: brown; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding-right:20px;
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+    /* margin: 15px;  Use gap*/
+}
+nav i{
+    font-size: 20px;
+    font-weight: 500;
+    /* margin: 15px use gap; */
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+#center{
+padding: 20px 80px;
+}
+#center h1{
+    font-size: 70px;
+    line-height: 75px;
+    font-weight:600 ;
+}
+#center-in {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 42px;
+}
+#center-in p{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600px;
+
+}
+#right{
+    width: 20%;
+
+}
+.ele{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid black;
+}
+.ele i{
+    font-size: 20px;
+    font-weight: 600px;
+    opacity: 0;
+}
+.ele a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.ele:hover i{
+    opacity: 1;
+}
+.ele:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url(https://media.istockphoto.com/id/1213798949/photo/young-indian-woman-in-bridal-wear-jewelry-and-make-up.jpg?s=2048x2048&w=is&k=20&c=vWQmLlZj-BVO_400dHOQkT1aDCzu9ecHLkF-_pcuqL4=);
+    background-size: cover;
+    background-position: center;
+}
